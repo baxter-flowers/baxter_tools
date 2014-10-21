@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="baxter_tools" name="head_cam" type="head_cam.py"/>
+    <node pkg="image_view" name="image_view" type="image_view" args="image:=/cameras/head_camera/image"/>
+</launch>
